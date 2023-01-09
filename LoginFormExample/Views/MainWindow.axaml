@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:LoginFormExample.ViewModels"
         mc:Ignorable="d" d:DesignWidth="500" 
-            d:DesignHeight="300"
+            d:DesignHeight="400"
         x:Class="LoginFormExample.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/rudata_icon.ico"
         Title="LoginFormExample"
         CanResize="False"
         x:CompileBindings="True"
@@ -57,7 +57,6 @@
                 </DataTemplate>
             </Setter>
         </Style>
-            
         <Style Selector="TextBlock.h1">
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="FontWeight" Value="Bold"/>

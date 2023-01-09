@@ -19,6 +19,4 @@ class Program
             .UsePlatformDetect()
             .LogToTrace()
             .UseReactiveUI();
-    
-    
 }
